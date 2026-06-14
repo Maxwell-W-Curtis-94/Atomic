@@ -68,7 +68,7 @@ atomic/
     └── manual/
 ```
 
-See the [Technical Design Document](docs/TDD.md) for full architecture details.
+See the [Technical Design Document](docs/tdd.md) for full architecture details.
 
 ---
 
