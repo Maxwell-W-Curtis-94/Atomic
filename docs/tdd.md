@@ -335,6 +335,7 @@ Full structure with example values:
   ],
   "schedule": [
     {
+      "id": 1,
       "day": "monday",
       "start": "19:00",
       "end": "21:00"

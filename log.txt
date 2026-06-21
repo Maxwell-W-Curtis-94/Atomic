@@ -1,0 +1,4 @@
+INFO:__main__:Starting Application
+INFO:root:Loading config
+INFO:root:App folder created
+INFO:root:Config file created
