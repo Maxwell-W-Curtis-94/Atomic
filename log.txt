@@ -1,4 +1,5 @@
 INFO:__main__:Starting Application
 INFO:root:Loading config
 INFO:root:App folder created
-INFO:root:Config file created
+INFO:config.config_manager:Config file loaded
+INFO:database.db_manager:DB path: C:\Users\curti\AppData\Local\Maxwell\Atomic

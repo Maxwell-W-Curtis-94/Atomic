@@ -10,7 +10,9 @@ DB_PATH = Path(user_data_dir(appname="Atomic", appauthor="Maxwell"))
 
 def initialize():
     DB_PATH.mkdir(parents=True, exist_ok=True)
-    with sqlite3.connect(DB_PATH) as db:
+    logger.info(f"DB path: {DB_PATH}")
+    db_file = DB_PATH / "atomic.db"
+    with sqlite3.connect(db_file) as db:
         cursor = db.cursor()
         with open('database/schema.sql') as schema_file:
             schema = schema_file.read()

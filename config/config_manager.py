@@ -13,6 +13,7 @@ def initialize():
     path = Path(app_data_path)
     path.mkdir(parents=True, exist_ok=True)
     logging.info("App folder created")
+    logging.debug("App folder path: {}".format(path))
     source_file = "config/default_config.json"
     destination_path = path.joinpath("config.json")
     if not destination_path.exists():
