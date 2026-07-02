@@ -1,0 +1,6 @@
+psutil
+pyqt6
+pytest
+watchdog
+pystray
+platformdirs

@@ -1,0 +1,43 @@
+{
+  "system": {
+    "polling_interval_ms": 500
+  },
+  "distraction_apps": [
+    {
+      "name": "",
+      "process_name": "",
+      "shortcuts": [
+        {
+          "original_path": "",
+          "hidden": false
+        }
+      ]
+    }
+  ],
+  "productive_apps": [
+    {
+      "name": "",
+      "executable": "",
+      "url": null,
+      "window": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "screen": 0
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "day": "",
+      "start": "",
+      "end": ""
+    }
+  ],
+  "startup": {
+    "launch_on_login": true,
+    "startup_method": ""
+  }
+}
